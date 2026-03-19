@@ -20,7 +20,7 @@ date_default_timezone_set(env('APP_TIMEZONE', 'UTC'));
 */
 
 $app = new Laravel\Lumen\Application(
-    dirname(__DIR__)
+    dirname(__DIR__axs)
 );
 $app->register(Jenssegers\Mongodb\MongodbServiceProvider::class);
 $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
